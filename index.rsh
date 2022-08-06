@@ -7,10 +7,10 @@ const SharedFn = {
   seeOutcome: Fun([UInt], Null),
 }
 
-const ManyUsers = API('users', {
-  bids: Fun([UInt], UInt),
+// const ManyUsers = API('users', {
+//   bids: Fun([UInt], UInt),
  
-});
+// });
 
 export const main = Reach.App(() => {
   const A = Participant('Alice', {
